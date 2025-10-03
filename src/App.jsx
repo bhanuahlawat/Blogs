@@ -15,7 +15,7 @@ function App() {
     <Router>
       <Navbar />
       <Sidebar />
-      <div className="pt-[88px] pr-20 min-h-screen"> 
+      <div className="pt-[88px] pr-12 min-h-screen"> 
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog/:id" element={<BlogDetail />} />
