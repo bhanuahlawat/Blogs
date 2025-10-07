@@ -746,7 +746,7 @@ const SocialMedia = () => {
   
   return (
     // Responsive Padding and Sidebar Clearance
-    <div className="px-10 pt-4 md:pt-10 rounded-lg bg-gray-50">
+    <div className="px-1 pt-4 md:pt-10 rounded-lg bg-gray-50">
       <div 
         // Inner div handles the right padding to clear the fixed sidebar
         className="pr-0 sm:pr-16 md:pr-10"
