@@ -5,11 +5,9 @@ import Home from "./pages/Home";
 // import BlogDetail from "./pages/BlogDetail";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import SignIn from "./pages/SignIn";
 import AllPosts from "./pages/AllPosts";
 import Footer from "./components/Footer";
 import SocialMedia from "./pages/Socialmedia";
-import SignUp from "./pages/signup";
 import UnderConstruction from "./pages/Working";
 import AdminDashboard from "./pages/Admin/AdminDashboard";
 
@@ -24,8 +22,6 @@ function App() {
             {/* <Route path="/blog/:id" element={<BlogDetail />} /> */}
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/signup" element={<SignUp/>}/>
-            <Route path="/signin" element={<SignIn />} />
             <Route path="/AllPosts" element={<AllPosts />} />
             <Route path="/Working" element={<UnderConstruction/>} />
             {/* <Route path="/Admin" element={<SignIn/>} /> */}
