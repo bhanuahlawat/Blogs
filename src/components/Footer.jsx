@@ -4,7 +4,7 @@ import { Instagram, Twitter } from "lucide-react";
 const Footer = () => {
   return (
     // Footer container with modern background and separation
-    <footer className="bg-gray-100 border-t border-gray-200 mt-12">
+    <footer className="bg-gray-100 border-t border-gray-200 ">
       
       {/* Top Section: Main content columns - Uses 3 columns on desktop */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-10 gap-x-8">

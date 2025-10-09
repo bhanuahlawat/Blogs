@@ -1,4 +1,4 @@
-import { blogs } from "../data/blogs";
+// import { blogs } from "../data/posts";
 import BlogCard from "../components/BlogCard";
 import SocialMedia from "./Socialmedia";
 import Footer from "../components/Footer";
