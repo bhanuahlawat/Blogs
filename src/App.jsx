@@ -10,7 +10,6 @@ import AllPosts from "./pages/AllPosts";
 import Footer from "./components/Footer";
 import SocialMedia from "./pages/Socialmedia";
 import SignUp from "./pages/signup";
-// import AdminPanel from "./pages/Admin/AdminPannel";
 import UnderConstruction from "./pages/Working";
 import AdminDashboard from "./pages/Admin/AdminDashboard";
 
@@ -28,7 +27,6 @@ function App() {
             <Route path="/signup" element={<SignUp/>}/>
             <Route path="/signin" element={<SignIn />} />
             <Route path="/AllPosts" element={<AllPosts />} />
-            {/* <Route path="/DashBoard" element={<AdminPanel />} /> */}
             <Route path="/Working" element={<UnderConstruction/>} />
             {/* <Route path="/Admin" element={<SignIn/>} /> */}
             <Route path="/Admin" element={<AdminDashboard/>} />
