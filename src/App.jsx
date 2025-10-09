@@ -10,7 +10,7 @@ import AllPosts from "./pages/AllPosts";
 import Footer from "./components/Footer";
 import SocialMedia from "./pages/Socialmedia";
 import SignUp from "./pages/signup";
-import AdminPanel from "./pages/Admin/AdminPannel";
+// import AdminPanel from "./pages/Admin/AdminPannel";
 import UnderConstruction from "./pages/Working";
 import AdminDashboard from "./pages/Admin/AdminDashboard";
 
