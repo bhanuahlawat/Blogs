@@ -20,17 +20,8 @@ export default function Navbar() {
         {/* LEFT SIDE: Placeholder (for flex-balance or other icons) */}
         {/* We use 'flex-1' to ensure the space is taken up on the left */}
         <div className="flex-1">
-          {/* You could add a hamburger menu icon here */}
         </div>
 
-        {/* Logo/Brand - CENTERED */}
-        {/* <button
-          onClick={() => navigate("/")}
-          // Absolute positioning is the most reliable way to center an element in a flex container
-          className="text-xl font-bold tracking-widest text-gray-800 flex-shrink-0 absolute left-1/2 -translate-x-1/2"
-        >
-          Blogs
-        </button> */}
         <button
           onClick={() => navigate("/")}
           className="text-2xl font-extrabold tracking-widest text-black hover:text-pink-500 transform transition duration-300 hover:scale-105 flex-shrink-0 absolute left-1/2 -translate-x-1/2 drop-shadow-sm "
@@ -61,8 +52,7 @@ export default function Navbar() {
                     <input
                         type="text"
                         placeholder="Type to search for articles..."
-                        // Take up almost all the space
-                        // className="flex-1 pl-4 pr-10 py-2 text-base border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+       
                         className="w-full max-w-sm sm:max-w-md pl-4 pr-10 py-2 text-base border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
 
                         autoFocus // Focus the input when it appears
